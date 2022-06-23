@@ -1,0 +1,65 @@
+{
+  "request_id": "220623184410_1c224421-07fd-5542-b28d-78a896fd14a2",
+  "status": "pending",
+  "request": {
+    "source_credentials": "02c982b1-b3d7-44bb-bd72-3b1891f1deea",
+    "target_credentials": "50b7c9b3-d559-49c5-9cc9-0e80cf089a4e",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/source.json",
+      "parent_id": "10207201840430554",
+      "start_date": "2022-01-01T00:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+      "columns": [
+        "account_id",
+        "ad_id",
+        "adset_id",
+        "campaign_id",
+        "campaign_name",
+        "clicks",
+        "cost_per_inline_link_click",
+        "cost_per_inline_post_engagement",
+        "cost_per_unique_click",
+        "cost_per_unique_inline_link_click",
+        "date_start",
+        "frequency",
+        "impressions",
+        "inline_link_clicks",
+        "inline_post_engagement",
+        "reach",
+        "spend",
+        "unique_clicks",
+        "unique_inline_link_clicks",
+        "publisher_platform",
+        "platform_position",
+        "impression_device"
+      ],
+      "import": "ads_insights_platform_and_device"
+    },
+    "created_at": "2022-06-23T18:44:10.120538+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device/",
+        "id": "5:da0627a0-9327-47b6-90e7-dd7a1ca9e394",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D001825",
+        "commit_sha": "ad97c4672355bdd03eea910c756aa96670bb5565"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-23T18:44:10.120538+00:00",
+  "_signature": "ILkG/kE2YEHKpPnSooKfarm9+XgNqke9/RCGu5oDzRlzBXXk0SFa7iVtFTP6Vc3CgzfhY2MyZEljceiBoXn3BA=="
+}
